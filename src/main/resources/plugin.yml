@@ -1,0 +1,11 @@
+name: Glove
+main: com.riftforged.glove.plugin.Glove
+version: 1.0.0
+author: Dylan 'Dutchy' de Beer
+api-version: 1.20
+commands:
+  glove:
+    description: Glove command
+    usage: /glove <help|version>
+    permission: glove.command
+    permission-message: You do not have permission to use this command
